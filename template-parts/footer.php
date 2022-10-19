@@ -1,10 +1,10 @@
 <footer id="colophon" class="site-footer this-site-footer bg-white <?php Brisko\Theme::options()->footer_top_margin(); ?>">
 	<?php brisko_footer(); ?>
 	<div align="center" class="site-info container">
-		
+
 <div id="footer-lists" class="container">
 <div class="justify-content-between row">
-<ul class="list-group col"> LISTA1
+<ul class="list-group col"> Twitter platform
   <li class="list-group-item">An item</li>
   <li class="list-group-item">A second item</li>
   <li class="list-group-item">A third item</li>
