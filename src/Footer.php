@@ -62,4 +62,5 @@ final class Footer
 		return $poweredby;
 	}
 
+	
 }
