@@ -200,3 +200,6 @@ text-align: left;
   opacity: .6;
   cursor: pointer;
 }
+.container, .container-sm, .container-md, .container-lg, .container-xl{
+  max-width: 100%;
+}
