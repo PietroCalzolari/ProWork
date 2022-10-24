@@ -5,39 +5,47 @@
 <div id="footer-lists" class="container">
 <div class="justify-content-between row">
 <ul class="list-group col"> Twitter platform
-  <li class="list-group-item">An item</li>
-  <li class="list-group-item">A second item</li>
-  <li class="list-group-item">A third item</li>
-  <li class="list-group-item">A fourth item</li>
-  <li class="list-group-item">And a fifth one</li>
+  <li class="list-group-item">Twitter.com</li>
+  <li class="list-group-item">Status</li>
+  <li class="list-group-item">Accessibility</li>
+  <li class="list-group-item">Embed a Tweet</li>
+  <li class="list-group-item">Privacy Center</li>
+  <li class="list-group-item">Transparency Center</li>
 </ul>
-<ul class="list-group col"> LISTA2
-  <li class="list-group-item">An item</li>
-  <li class="list-group-item">A second item</li>
-  <li class="list-group-item">A third item</li>
-  <li class="list-group-item">A fourth item</li>
-  <li class="list-group-item">And a fifth one</li>
+<ul class="list-group col"> Twitter, Inc.
+  <li class="list-group-item">About the company</li>
+  <li class="list-group-item">Twitter for Good</li>
+  <li class="list-group-item">Company news</li>
+  <li class="list-group-item">Brand toolkit</li>
+  <li class="list-group-item">Jobs and internships</li>
+  <li class="list-group-item">Investors</li>
 </ul>
-<ul class="list-group col"> LISTA3
-  <li class="list-group-item">An item</li>
-  <li class="list-group-item">A second item</li>
-  <li class="list-group-item">A third item</li>
-  <li class="list-group-item">A fourth item</li>
-  <li class="list-group-item">And a fifth one</li>
+<ul class="list-group col"> Help
+  <li class="list-group-item">Help Center</li>
+  <li class="list-group-item">Using Twitter</li>
+  <li class="list-group-item">Twitter for creators</li>
+  <li class="list-group-item">Ads Help Center</li>
+  <li class="list-group-item">Managing your account</li>
+  <li class="list-group-item">Email Preference Center</li>
+  <li class="list-group-item">Rules and policies</li>
+  <li class="list-group-item">Contact us</li>
 </ul>
-<ul class="list-group col"> LISTA4
-  <li class="list-group-item">An item</li>
-  <li class="list-group-item">A second item</li>
-  <li class="list-group-item">A third item</li>
-  <li class="list-group-item">A fourth item</li>
-  <li class="list-group-item">And a fifth one</li>
+<ul class="list-group col"> Developer resources
+  <li class="list-group-item">Documentation</li>
+  <li class="list-group-item">Forums</li>
+  <li class="list-group-item">Communities</li>
+  <li class="list-group-item">Developer blog</li>
+  <li class="list-group-item">Engineering blog</li>
+  <li class="list-group-item">Developer terms</li>
 </ul>
-<ul class="list-group col"> LISTA5
-  <li class="list-group-item">An item</li>
-  <li class="list-group-item">A second item</li>
-  <li class="list-group-item">A third item</li>
-  <li class="list-group-item">A fourth item</li>
-  <li class="list-group-item">And a fifth one</li>
+<ul class="list-group col"> Business resources
+  <li class="list-group-item">Advertise</li>
+  <li class="list-group-item">Twitter for business</li>
+  <li class="list-group-item">Resources and guides</li>
+  <li class="list-group-item">Twitter for marketers</li>
+  <li class="list-group-item">Marketing insights</li>
+  <li class="list-group-item">Brand inspiration</li>
+  <li class="list-group-item">Twitter Flight School</li>
 </ul>
 
 </div>
