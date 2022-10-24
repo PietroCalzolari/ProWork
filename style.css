@@ -13,15 +13,22 @@
 */
 
 
-
+body {
+  background-color: #657786;
+}
 body.home .nav-link {
-
+  background-color: #657786;
   color: white !important;
   background-color: transparent !important;
   font-family: Helvetica Neue LT, Helvetica Neue, Helvetica, Arial, sans-serif;
 
 }
 
+#page{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
 
 .navbar-brand {
 
@@ -192,9 +199,4 @@ text-align: left;
   color: white;
   opacity: .6;
   cursor: pointer;
-}
-
-.padding {
-  margin-left: 100px;
-  margin-right: 100px;
 }
