@@ -57,7 +57,7 @@
 		<div class="navbar">
 			<div class="display-right">
 				<select class="form-control" id="ciao">
-					<option>prova</option>
+					<option>English(US)</option>
 				</select>
 				<button class="btn rounded-pill white-border">Sign up</button>
 			</div>
@@ -76,11 +76,10 @@
 					<?php the_custom_logo(); ?>
 				</div>
 			<?php endif; ?>
-			<div class="site-title" id="site-title">
+			<div class="site-title centra" id="site-title">
 				<a class="site-name" href="<?php echo esc_url(home_url('/')); ?>" rel="home">
 					<h4 class="body-home site-description fill">Product</h4>
-					<?php // bloginfo( 'name' );
-					?> Introducing mixed media: Videos, images, and GIFs together in one Tweet
+					Introducing mixed media: Videos, images, and GIFs together in one Tweet
 				</a>
 				<?php
 				$brisko_description = get_bloginfo('description', 'display');

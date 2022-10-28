@@ -177,7 +177,8 @@ a:active {
   background-color: transparent;
   border-color: transparent;
   font-size: .80rem;
-text-align: left;
+  text-align: left;
+  padding: 0;
 }
 
 #footer-lists{
@@ -202,4 +203,17 @@ text-align: left;
 }
 .container, .container-sm, .container-md, .container-lg, .container-xl{
   max-width: 100%;
+}
+
+.centra {
+  padding-left: 100px;
+}
+
+.bigger-text {
+  font-size:xx-large;
+}
+
+.stacca {
+  padding-bottom: 40px;
+  font-size: large;
 }

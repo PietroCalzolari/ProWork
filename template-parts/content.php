@@ -22,8 +22,8 @@
 		<?php brisko_before_entry_meta(); ?>
 			<div class="entry-meta ">
 				<?php
-				brisko_posted_on();
 				brisko_posted_by();
+				brisko_posted_on();
 				?>
 			</div><!-- .entry-meta -->
 		<?php brisko_after_entry_meta(); ?>
