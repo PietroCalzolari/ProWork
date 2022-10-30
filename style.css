@@ -14,10 +14,10 @@
 
 
 body {
-  background-color: #657786;
+  background-color: #aab8c2;
 }
 body.home .nav-link {
-  background-color: #657786;
+  background-color: #aab8c2;
   color: white !important;
   background-color: transparent !important;
   font-family: Helvetica Neue LT, Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -137,15 +137,34 @@ body.home .navbar-light .navbar-toggler-icon {
 }
 
 .post-title {
-  font-family: Helvetica Neue LT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: Helvetica Neue LT,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-weight: 700;
-  font-size: 1.5rem;
-  line-height: 1.5rem;
-  letter-spacing: 0;
+  font-size: 2.25rem;
+  line-height: 2.25rem;
+  letter-spacing: -.025rem;
   margin: 0;
   padding: 0;
-  color: #657786 !important;
+  word-break: break-word;
+  color: #14171a;
 }
+
+.posts-title:hover {
+  color:black;
+}
+.posts-title {
+    font-family: Helvetica Neue LT,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 2.25rem;
+    letter-spacing: -.025rem;
+    margin: 0;
+    padding: 0;
+    word-break: break-word;
+    color: #657786;
+    transition: color .3s ease-in-out;
+    background-color: transparent;
+}
+
 
 a:link {
   text-decoration: none;
@@ -216,4 +235,28 @@ a:active {
 .stacca {
   padding-bottom: 40px;
   font-size: large;
+}
+
+.entry-meta {
+  color: #aab8c2;
+}
+
+.entry-meta a {
+  color: #005fd1;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.flex {
+  display: flex;
+}
+
+.blog-author-card__profileimg {
+  border-radius: 50%;
+  background-clip: padding-box;
+  width: 108px;
+  height: auto;
+  margin-bottom: 0.75rem;
+  float: left;
+  margin-right: 20px;
 }
