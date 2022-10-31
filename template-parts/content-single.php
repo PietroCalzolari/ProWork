@@ -10,14 +10,31 @@
 
 ?>
 <div class="container left-rail-container flex">
-	<div class="column column-4">
-	<a href="https://www.twitter.com/TwitterLatAm"><img alt="@${twtrHandle}" class="blog-author-card__profileimg" src="https://pbs.twimg.com/profile_images/1354488983514877953/2h5PKcgK_200x200.jpg"></a>
+	<div class="sinistra column column-4">
+		<a class="row linka" href="https://www.twitter.com/TwitterLatAm"><img alt="@${twtrHandle}" class="twitter-image" src="https://pbs.twimg.com/profile_images/1354488983514877953/2h5PKcgK_200x200.jpg"></a>
+		<div class="row">
+			<a class="col col-3 linka" href="https://www.twitter.com/TwitterLatAm">‎@TwitterLatAm‎</a>
+			<img alt="verified" class="col col-3 verified" src="https://blog.twitter.com/etc/designs/blog-twitter/public/icons-svg/verified2.svg">
+		</div>
+		<div class="row">
+			<div class="col col-6 stacca"></div>
+		</div>
+		<div class="row">
+			<h2 class="piccolo">Only on Twitter</h2>
+		</div>
+		<div class="row">
+			<a href="https://twitter.com/Twitter" class="linka">@Twitter</a>
+		</div>
+		<div class="row">
+			<a href="https://twitter.com/hashtag/OnlyOnTwitter" class="linka">#OnlyOnTwitter</a>
+		</div>
 	</div>
-	<div class="column column-6">
+	<div class="column column-8 centro">
 		<div class="post-article">
 			<?php Brisko\Theme::post_thumbnail(); ?>
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 				<header class="entry-header">
+				<span class="product">Product</span>
 					<?php
 					if (is_singular()) :
 						the_title('<h2 class="post-title">', '</h1>');
@@ -28,7 +45,7 @@
 					<?php brisko_before_entry_meta(); ?>
 					<div class="entry-meta ">
 						<?php brisko_posted_by(); ?>
-						<?php brisko_posted_on(); ?>
+						<br><?php brisko_posted_on(); ?>
 					</div><!-- .entry-meta -->
 					<?php brisko_after_entry_meta(); ?>
 				</header><!-- .entry-header -->
@@ -56,5 +73,4 @@
 			</article><!-- #post-<?php the_ID(); ?> -->
 		</div><!-- post-article -->
 	</div>
-	<div class="column column-2"></div>
 </div>

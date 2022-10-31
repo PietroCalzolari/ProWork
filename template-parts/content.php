@@ -12,6 +12,7 @@
 	<?php Brisko\Theme::post_thumbnail(); ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
+		<span class="product">Product</span>
 		<?php if ( is_singular() ) : ?>
 			<?php the_title( '<h2 class="post-title">', '</h1>' ); ?>
 				<?php
