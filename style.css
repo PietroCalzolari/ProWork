@@ -328,3 +328,15 @@ a:active {
   padding: 0;
   color: #aab8c2;
 }
+
+div.brisko-navigation {
+  background-color: #1da1f2;
+}
+
+.navbar-light .navbar-brand {
+  color: white !important;
+}
+
+.nav-link {
+  color: white !important;
+}
