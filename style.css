@@ -23,11 +23,12 @@ body.home .nav-link {
   font-family: Helvetica Neue LT, Helvetica Neue, Helvetica, Arial, sans-serif;
 
 }
-
-#page{
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-bottom: 5%;
+@media (min-width: 1600px) {
+  #page{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+  }
 }
 
 .navbar-brand {
